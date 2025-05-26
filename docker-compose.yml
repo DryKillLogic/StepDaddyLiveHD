@@ -16,5 +16,3 @@ services:
     ports:
       - "${PORT}:${PORT}"
     restart: unless-stopped
-    env_file:
-      - .env
